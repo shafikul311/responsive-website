@@ -1,7 +1,16 @@
+.main{
+    background-color: #FFF9F4;
+}
+
+
 .color-heighlit{
-    color: orange;
+    color: #FA804C;
     font-size: 50px;
 }
-/* .flex{
-    justify-content: inline;
-} */
+#button{
+    
+    padding: 10px;
+    background-color: #546de5;
+    border-radius: 5px #546de5;
+
+}

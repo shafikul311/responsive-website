@@ -10,54 +10,55 @@
       rel="stylesheet"
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
+
     />
+
+    <script src="https://kit.fontawesome.com/60dc163008.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="container"> 
 
-    <!-- start -->
-    <section class="container">
-      <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"
-              ><img class="img-fluid" src="images/Logo, Icon/Logo.png" alt=""
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
+        <!-- main container section -->
+  <section class="container"> 
+
+         <!-- nav-var -->
+
+    <section class="main">
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/Logo, Icon/Logo.png" alt="" style="width: auto; height: 35px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav" style="float: right;">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link" href="#">Disabled</a>
-              </div>
-            </div>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" >contract Us</a>
+              </li>
+            </ul>
           </div>
-        </nav>
-      </div>
-      <div>
-    </section>
+        </div>
+      </nav>
+  
+    
 
-    <section class="container d-flex mt-5 mb-5">
-      <div class="col-md-6 ms-3">
-        <img
-          src="images/Photos/Group 33092.png"
-          class="d-block w-75 ms-5 ps-5"
-          alt="..."
-        />
+    <div class="row mt-5 mb-5">
+      <div class="col-sm-6">
+        <img src="images/Photos/Group 33092.png" alt="" class="w-75 m-0 p-0">
+        
       </div>
-      <div class="col-md-6  w-75 mt-5 justify-content-evenly">
+
+      <div class="col-sm-6  mt-5 p-5">
         <h1><span class="color-heighlit">Nike React</span></h1>
         <h1>Infinity Run 2</h1>
         <p>
@@ -65,22 +66,27 @@
           industry
         </p>
 
-        <button class="bg-success">Buy now</button>
+        <button class="btn btn-primary btn-lg" id="button"><i class="fas fa-shopping-cart"></i> Buy Now</button>
+
+        
       </div>
-    </section>
+    </div>
+
+  </section>
 
 
-<!-- shoes store1 -->
+         <!-- products -->
+
 
     <section>
-
-      <div>
-        <h1>CASUAL SHOES</h1>
+          <!-- CASUAL SHOES -->
+      <div >
+        <h1 class="mt-5">CASUAL SHOES</h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col shadow p-1 mb-1 bg-white rounded">
+          <div class="col shadow p-1 mb-1  rounded">
             <div class="card  h-100">
-              <img src="images/Photos/s-13.png" class="card-img-top bg-secondary" alt="...">
+              <img src="images/Photos/s-11.png" class="card-img-top bg-secondary " alt="...">
               <div class="card-body">
                 <h5 class="card-title">Nike Shoe</h5>
                 <p class="card-text">Lorem Ipsum is simply dummy text of the 
@@ -91,10 +97,10 @@
                 <div class="container overflow-hidden">
                   <div class="row gx-5">
                     <div class="col">
-                     <div ><h4>$400</h4></div>
+                     <div  class="ms-5"><h1>$400</h1></div>
                     </div>
                     <div class="col mb-3">
-                      <div ><button type="button" class="btn btn-primary">BUY NOW</button></div>
+                      <div ><button class="btn btn-primary" id="button"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                   </div>
                 </div>
@@ -105,7 +111,7 @@
 
           <div class="col shadow p-1 mb-1 bg-white rounded">
             <div class="card  h-100">
-              <img src="images/Photos/s-11.png" class="card-img-top bg-secondary rounded" alt="...">
+              <img src="images/Photos/s-13.png" class="card-img-top bg-secondary rounded" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Sneakers Skate Shoe</h5>
                 <p class="card-text">Lorem Ipsum is simply dummy text of the 
@@ -116,10 +122,10 @@
                 <div class="container overflow-hidden">
                   <div class="row gx-5">
                     <div class="col">
-                     <div ><h4>$400</h4></div>
+                      <div  class="ms-5"><h1>$400</h1></div>
                     </div>
                     <div class="col mb-3">
-                      <div ><button type="button" class="btn btn-primary">BUY NOW</button></div>
+                      <div ><button class="btn btn-primary" id="button"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                   </div>
                 </div>
@@ -141,10 +147,10 @@
                 <div class="container overflow-hidden">
                   <div class="row gx-5">
                     <div class="col">
-                     <div ><h4>$400</h4></div>
+                      <div  class="ms-5"><h1>$400</h1></div>
                     </div>
                     <div class="col mb-3">
-                      <div ><button type="button" class="btn btn-primary">BUY NOW</button></div>
+                      <div ><button class="btn btn-primary" id="button"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                   </div>
                 </div>
@@ -152,13 +158,13 @@
               </div>
             </div>
           </div>
-          
-
       </div>
 
-<!-- shoes store2 -->
-      <div>
-        <h1>Formal shoes</h1>
+<!-- FORMAL SHOES -->
+
+
+      <div class="mt-5">
+        <h1>FORMAL SHOES</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col shadow p-3 mb-5 bg-white rounded">
             <div class="card  h-100">
@@ -173,10 +179,10 @@
                 <div class="container overflow-hidden">
                   <div class="row gx-5">
                     <div class="col">
-                     <div ><h4>$400</h4></div>
+                      <div  class="ms-5"><h1>$400</h1></div>
                     </div>
                     <div class="col mb-3">
-                      <div ><button type="button" class="btn btn-primary">BUY NOW</button></div>
+                      <div ><button class="btn btn-primary" id="button"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                   </div>
                 </div>
@@ -189,7 +195,7 @@
             <div class="card  h-100">
               <img src="images/Photos/s-22.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Prestige High-Cut Leather</h5>
+                <h5 class="card-title">Slip-On Formal Shoe</h5>
                 <p class="card-text">Lorem Ipsum is simply dummy text of the 
 
                   printing and typesetting industry</p>
@@ -198,10 +204,10 @@
                 <div class="container overflow-hidden">
                   <div class="row gx-5">
                     <div class="col">
-                     <div ><h4>$400</h4></div>
+                      <div  class="ms-5"><h1>$400</h1></div>
                     </div>
                     <div class="col mb-3">
-                      <div ><button type="button" class="btn btn-primary">BUY NOW</button></div>
+                      <div ><button class="btn btn-primary" id="button"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                   </div>
                 </div>
@@ -214,7 +220,7 @@
             <div class="card  h-100">
               <img src="images/Photos/s-23.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Prestige High-Cut Leather</h5>
+                <h5 class="card-title">Slip-On Formal Shoe</h5>
                 <p class="card-text">Lorem Ipsum is simply dummy text of the 
 
                   printing and typesetting industry</p>
@@ -223,10 +229,10 @@
                 <div class="container overflow-hidden">
                   <div class="row gx-5">
                     <div class="col">
-                     <div ><h4>$400</h4></div>
+                      <div  class="ms-5"><h1>$400</h1></div>
                     </div>
                     <div class="col mb-3">
-                      <div ><button type="button" class="btn btn-primary">BUY NOW</button></div>
+                      <div ><button class="btn btn-primary" id="button"><i class="fas fa-shopping-cart"></i> Buy Now</button></div>
                     </div>
                   </div>
                 </div>
@@ -235,79 +241,96 @@
             </div>
           </div>
           
-          
     </section>
-    <!-- servise -->
 
-    <section >
 
-      <div>
+    
+            <!-- features -->
+
+
+      <div class="mt-5">
         <div class="row">
           <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex align-items-center shadow ">
-                  <img src="images/Logo, Icon/image 12.png" alt="" style="width: 80px;width: 80px;" class="m-3 p-3">
-                <div>
-                    <h5>Find the Perfect Fit</h5>
-                    <p>Everybody is different, which is why we
-            
-                        offer styles for every body</p>
-                </div>
-              </div>
-              <div class="d-flex align-items-center shadow ">
-                <img src="images/Logo, Icon/image 13.png" alt="" style="width: 80px;width: 80px;" class="m-3 p-3" >
+            <div class="d-flex align-items-center shadow">
+              <img
+                src="images/Logo, Icon/image 12.png"
+                alt=""
+                style="width: 80px; width: 80px"
+                class="m-3 p-3"
+              />
               <div>
-                  <h5>Find the Perfect Fit</h5>
-                  <p>Everybody is different, which is why we
-            
-                      offer styles for every body</p>
+                <h5>Find the Perfect Fit</h5>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body
+                </p>
               </div>
             </div>
-            <div class="d-flex align-items-center shadow ">
-              <img src="images/Logo, Icon/image 14.png" alt="" style="width: 80px;width: 80px;" class="m-3 p-3">
-            <div>
+            <div class="d-flex align-items-center shadow">
+              <img
+                src="images/Logo, Icon/image 13.png"
+                alt=""
+                style="width: 80px; width: 80px"
+                class="m-3 p-3"
+              />
+              <div>
                 <h5>Find the Perfect Fit</h5>
-                <p>Everybody is different, which is why we
-            
-                    offer styles for every body</p>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body
+                </p>
+              </div>
             </div>
-            </div>
-            
-                
+            <div class="d-flex align-items-center shadow">
+              <img
+                src="images/Logo, Icon/image 14.png"
+                alt=""
+                style="width: 80px; width: 80px"
+                class="m-3 p-3"
+              />
+              <div>
+                <h5>Find the Perfect Fit</h5>
+                <p>
+                  Everybody is different, which is why we offer styles for every
+                  body
+                </p>
               </div>
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body mt-5 p-1" >
-                
-                <img src="images/Logo, Icon/XMLID 1.png" alt="" class="w-100" >
-                
-              </div>
-            </div>
+            <img
+              src="images/Logo, Icon/XMLID 1.png"
+              alt=""
+              class="w-100 m-3 p-5"
+            />
           </div>
         </div>
       </div>
-     
-    </section>
+  
+
+        <!-- extra diiscount section -->
+
+    <div class="card mt-5 p-5 align-items-center bg-transparent">
+      <h1><span class="color-heighlit">  GET 40%</span> DISCOUNT</h1>
+      <div class="card-body">
+        <form >
+      
+          <input type="text" placeholder="Name" name="name" required > <br><br>
+          <input type="text" placeholder="Email address" name="mail" required> <br><br>
+          <button class="btn btn-primary">Subscribe Now</button>
+      
+        </form>
+        
+      </div>
+    </div>
 
 
+  </section>
 
-
-
-
-
-
-
-</section> 
-
-
-
-
-
- 
-
+<!-- footer section -->
+<footer>
+  <p class="text-center">&copy all rights reserved by shafikul</p>
+</footer>
    
 
     <!-- JavaScript Bundle with Popper -->
